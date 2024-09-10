@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'dart:math';
 
+import 'package:hotline_test/util/colors.dart';
+
 class LiquidPainter extends CustomPainter {
   final double value;
   final double maxValue;
@@ -37,9 +39,9 @@ class LiquidPainter extends CustomPainter {
     Paint paint = Paint()
       ..shader = const SweepGradient(
               colors: [
-                Color(0xffFF7A01),
-                Color(0xffFF0069),
-                Color(0xff7639FB),
+                ColorsSource.orange,
+                ColorsSource.brightPink,
+                ColorsSource.purple,
               ],
               startAngle: pi / 2,
               endAngle: 5 * pi / 2,

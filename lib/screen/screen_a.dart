@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hotline_test/router/route.dart';
+import 'package:hotline_test/router/route_utils.dart';
 
 import 'package:hotline_test/util/images.dart';
 
